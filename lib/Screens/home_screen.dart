@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
       body: CustomScrollView(
         slivers: <Widget>[
           SliverAppBar(
+            pinned: true,
             brightness: Brightness.light,
             backgroundColor: Colors.white,
             title: Text(
@@ -28,12 +29,12 @@ class HomeScreen extends StatelessWidget {
               CirleBotton(
                 icon: Icons.search,
                 onPressed: () => print("search"),
-                iconSize: 28,
+                iconSize: 26,
               ),
               CirleBotton(
                 icon: MdiIcons.facebookMessenger,
                 onPressed: () => print("messenger"),
-                iconSize: 28,
+                iconSize: 26,
               )
             ],
           ),
