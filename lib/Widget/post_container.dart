@@ -97,6 +97,7 @@ class _PostStats extends StatelessWidget {
               icon: Icon(
                 MdiIcons.commentOutline,
                 color: Colors.grey[600],
+                size: 20,
               ),
               label: 'Comments',
               onTap: () => print('Comment'),
@@ -105,6 +106,7 @@ class _PostStats extends StatelessWidget {
               icon: Icon(
                 MdiIcons.shareOutline,
                 color: Colors.grey[600],
+                size: 24,
               ),
               label: 'shares',
               onTap: () => print('shares'),
@@ -134,6 +136,7 @@ class _PostBotton extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12.0),
           height: 25,
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               icon,
               SizedBox(width: 4),
@@ -172,7 +175,7 @@ class __PostLikeBottonState extends State<_PostLikeBotton> {
         child: Row(
           children: [
             Icon(
-              MdiIcons.thumbUpOutline,
+              isClicked ? MdiIcons.thumbUp : MdiIcons.thumbUpOutline,
               color: isClicked ? Palette.facebookBlue : Colors.grey[600],
               size: 20,
             ),
