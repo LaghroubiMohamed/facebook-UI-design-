@@ -1,9 +1,9 @@
 import 'package:facebook_ui/models/models.dart';
 
 final User currentUser = User(
-  name: 'Marcus Ng',
+  name: 'Laghroubi Med',
   imageUrl:
-      'https://images.unsplash.com/photo-1578133671540-edad0b3d689e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80',
+      'https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
 );
 
 final List<User> onlineUsers = [
@@ -167,9 +167,10 @@ final List<Story> stories = [
 final List<Post> posts = [
   Post(
     user: currentUser,
-    caption: 'Check out these cool puppers',
+    caption: 'Never Stop Coding ',
     timeAgo: '58m',
-    imageUrl: 'https://images.unsplash.com/photo-1525253086316-d0c936c814f8',
+    imageUrl:
+        'https://images.unsplash.com/photo-1528660544347-95a93c58e424?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
     likes: 1202,
     comments: 184,
     shares: 96,
