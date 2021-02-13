@@ -1,6 +1,11 @@
-# facebook_ui
+- 👋 Hi, I’m @LaghroubiMohamed
+- 👀 I’m interested in Data Science and mobile app development with flutter and dart 😍
+- 🌱 I’m currently learning Python and R 
+- 📫 How to reach me : laghroubi.mohamed@gmail.com
 
-This app is a clone to the facebook UI inspired from "Marcus Ng" youtube channel from this link "https://www.youtube.com/watch?v=HvLb5gdUfDE&t=2101s" 
+# facebook_ui
+This app is a clone to the facebook UI inspired from "Marcus Ng" youtube channel from this link
+"https://www.youtube.com/watch?v=HvLb5gdUfDE&t=2101s" 
 
 
 ### Change we made
@@ -25,3 +30,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+# Note:
+  before you generate your apk make sure that the internet permission is alredy added in the AndroidManifest.xml file
+  
+ 
