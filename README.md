@@ -5,7 +5,7 @@
 
 # facebook_ui
 This app is a clone to the facebook UI inspired from "Marcus Ng" youtube channel from this link
-"https://www.youtube.com/watch?v=HvLb5gdUfDE&t=2101s" 
+"https://www.youtube.com/watch?v=HvLb5gdUfDE" 
 
 
 ### Change we made
